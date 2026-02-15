@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
     <style>
@@ -53,17 +54,17 @@
 
         /* HERO */
         .hero{
-            background:url("main.png") center/cover no-repeat;
+            background:url("images/main.png") center/cover no-repeat;
         }
 
         /* ABOUT */
         .about{
-            background:url("about.png") center/cover no-repeat;
+            background:url("images/about.png") center/cover no-repeat;
         }
 
         /* DARK SECTIONS */
         .dark{
-            background:#03261e;
+            background:#021914;
             min-height:auto;
             padding:80px 20px;
             display:block;
@@ -77,6 +78,9 @@
         /* SKILLS */
         .skill{
             margin:15px 0;
+            max-width:500px;
+            margin-left:auto;
+            margin-right:auto;
         }
 
         .bar{
@@ -87,7 +91,7 @@
 
         .level{
             height:10px;
-            background:#00ffae;
+            background:#0aab78;
         }
 
         /* BUTTON */
@@ -95,7 +99,7 @@
             display:inline-block;
             margin:10px;
             padding:12px 25px;
-            background:#00ffae;
+            background:#0aab78;
             color:black;
             text-decoration:none;
             font-weight:bold;
@@ -106,6 +110,23 @@
         .btn:hover{
             background:white;
             transform:scale(1.05);
+        }
+
+        /* SOCIAL ICONS */
+        .social-icons{
+            margin-top:20px;
+        }
+
+        .social-icons a{
+            color:#0aab78;
+            font-size:35px;
+            margin:0 20px;
+            transition:0.3s ease;
+        }
+
+        .social-icons a:hover{
+            color:white;
+            transform:scale(1.3);
         }
 
         footer{
@@ -203,7 +224,23 @@
 <!-- CONTACT -->
 <section class="dark">
     <h2>Contact</h2>
-    <div class="box">Email: siausha496@gmail.com</div>
+
+    <div class="social-icons">
+        <!-- Gmail -->
+        <a href="mailto:yourmail@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://facebook.com/yourusername" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/yourusername" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
 </section>
 
 <footer>
@@ -212,6 +249,7 @@
 
 </body>
 </html>
+
 
 
 
